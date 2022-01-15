@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.menu-title {
+    color: #3A3A3A;
+}
+
+.menu-item ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item li {
+    margin-right: 35px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.influencer-product {
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.banner-head {
+    font-size: 52px;
+    color: #3A3A3A;
+}
+
+.banner-text {
+    color: #3A3A3A;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    width: 23%;
+    background: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+
+}
+
+.click a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-arrow-right {
+    color: #fff;
+}
+
+.right-side {
+    flex: 1;
+}
+
+.banner-images {
+    height: 60vh;
+    padding-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg img {
+    position: absolute;
+    top: 10%;
+    left: 29%;
+    z-index: -1;
+}
+.companys ul{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companys li{
+    list-style: none;
+    margin-right: 50px;
+}
